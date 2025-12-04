@@ -1,0 +1,10 @@
+{
+  "name": "MyApp",
+  "version": "1.0.0",
+  "php_version": "8.0",
+  "description": "The Progressive PHP Framework",
+  "developer": {
+    "name": "nexogic",
+    "email": "dev@nexgic.org"
+  }
+}
