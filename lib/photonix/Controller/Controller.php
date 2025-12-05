@@ -2,3 +2,7 @@
 
 namespace Photonix\Controller;
 
+class Controller
+{
+
+}
