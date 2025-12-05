@@ -1,0 +1,18 @@
+{
+    "name": "nexogic/photonix-mvc",
+    "description": "The Progressive PHP Framework",
+    "type": "project",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Nexogic\\PhotonixMvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "NexogicTech",
+            "email": "8@nexogic.org"
+        }
+    ],
+    "require": {}
+}
