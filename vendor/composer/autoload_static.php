@@ -4,19 +4,27 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit749b9e6c8522ec3956a59621000360e1
+class ComposerStaticInit84584da2362df7c436589641a8f9d78b
 {
     public static $prefixLengthsPsr4 = array (
-        'N' => 
+        'P' => 
         array (
-            'Nexogic\\PhotonixMvc\\' => 20,
+            'Photonix\\' => 9,
+        ),
+        'A' => 
+        array (
+            'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Nexogic\\PhotonixMvc\\' => 
+        'Photonix\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/lib/photonix',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/app',
         ),
     );
 
@@ -27,9 +35,9 @@ class ComposerStaticInit749b9e6c8522ec3956a59621000360e1
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit749b9e6c8522ec3956a59621000360e1::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit749b9e6c8522ec3956a59621000360e1::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit749b9e6c8522ec3956a59621000360e1::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit84584da2362df7c436589641a8f9d78b::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit84584da2362df7c436589641a8f9d78b::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit84584da2362df7c436589641a8f9d78b::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -5,7 +5,8 @@
     "license": "Apache-2.0",
     "autoload": {
         "psr-4": {
-            "Nexogic\\PhotonixMvc\\": "src/"
+            "App\\": "src/app",
+            "Photonix\\": "lib/photonix"
         }
     },
     "authors": [
@@ -14,5 +15,7 @@
             "email": "8@nexogic.org"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.0"
+    }
 }

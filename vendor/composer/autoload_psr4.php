@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Nexogic\\PhotonixMvc\\' => array($baseDir . '/src'),
+    'Photonix\\' => array($baseDir . '/lib/photonix'),
+    'App\\' => array($baseDir . '/src/app'),
 );
